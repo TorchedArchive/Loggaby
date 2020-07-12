@@ -1,0 +1,27 @@
+{
+  "name": "loggaby",
+  "version": "1.0.0",
+  "description": "The simple and light logger for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Terminalfreaks/Loggaby.git"
+  },
+  "keywords": [
+    "logger",
+    "log",
+    "terminal"
+  ],
+  "author": "Terminalfreaks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Terminalfreaks/Loggaby/issues"
+  },
+  "homepage": "https://github.com/Terminalfreaks/Loggaby#readme",
+  "dependencies": {
+    "ansiplace": "^1.1.0"
+  }
+}
