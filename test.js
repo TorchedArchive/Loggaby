@@ -1,4 +1,4 @@
-const Loggaby = require("./index");
+const Loggaby = require("./lib/index");
 const logger = new Loggaby();
 
 logger.debug("Test");
