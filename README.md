@@ -2,7 +2,7 @@
 > 📝 A minimal and simplistic logger with no bloat.
 
 Loggaby aims to be a simple, minimalistic and lightweight logger that doesn't bring useless dependencies and extra unneeded features.  
-It has 1 goal and strives for it well: Posting nice looking logs to your terminal (or perhaps a custom transport?!? See [the example](#example)for details).  
+It has 1 goal and strives for it well: Posting nice looking logs to your terminal (or perhaps a custom transport?!? See [the example](#example) for details).  
 
 Oh, it looks like this:  
 ![](https://modeus.is-inside.me/V6nRi6i6.png)
