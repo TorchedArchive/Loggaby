@@ -1,27 +1,30 @@
 {
   "name": "loggaby",
-  "version": "1.0.1",
-  "description": "The simple and light logger for Node.js",
-  "main": "index.js",
+  "version": "2.0.0",
+  "description": "📝 A minimal and simplistic logger with no bloat.",
+  "main": "lib/index.js",
   "scripts": {
     "test": "node test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Terminalfreaks/Loggaby.git"
+    "url": "git+https://github.com/Luvella/Loggaby.git"
   },
   "keywords": [
     "logger",
     "log",
     "terminal"
   ],
-  "author": "Terminalfreaks",
+  "author": "Luvella",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Terminalfreaks/Loggaby/issues"
+    "url": "https://github.com/Luvella/Loggaby/issues"
   },
-  "homepage": "https://github.com/Terminalfreaks/Loggaby#readme",
+  "homepage": "https://github.com/Luvella/Loggaby#readme",
   "dependencies": {
-    "ansiplace": "^1.1.0"
+    "ansikit": "^1.1.4"
+  },
+  "devDependencies": {
+    "@luvella/eslint-config": "^1.0.2"
   }
 }
