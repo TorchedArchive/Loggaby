@@ -11,6 +11,9 @@
     "url": "git+https://github.com/Luvella/Loggaby.git"
   },
   "keywords": [
+    "color",
+    "colors",
+    "console",
     "logger",
     "log",
     "terminal"
