@@ -27,68 +27,7 @@
 `npm i loggaby`
 
 ## Examples
-```js
-const Loggaby = require('loggaby');
-const TerminalTransport = new Loggaby.TerminalTransport();
-const logger = new Loggaby({
-	transports: [TerminalTransport] // NOTE: This is provided by default. There is no reason
-									// to import TerminalTransport unless adding your own extra transports.
-									// For an implementation example of a Transport, see below.
-});
-
-logger.log('Hello World!');
-```
-
-Transport Example:  
-```js
-// CustomTransport.js
-// It's essentially just the TerminalTransport without color.
-// Realistically you can just pass `false` to the TerminalTransport constructor
-const Loggaby = require('loggaby');
-class CustomTransport extends Loggaby.Transport {
-	constructor() {
-		super(false) // Disable color
-	}
-
-	transmit(msg) { // The function to post/print a message
-		console.log(msg)
-	}
-}
-
-module.exports = CustomTransport;
-
-// index.js
-const Loggaby = require('loggaby');
-const CustomTransport = require('./CustomTransport');
-const logger = new Loggaby({
-	transports: [new CustomTransport()]
-});
-
-logger.log('Hello World!');
-```  
-
-Custom levels:  
-```js
-const Loggaby = require('loggaby');
-
-const logger = new Loggaby({
-	levels: [
-		{
-			name: 'API',
-			color: 'magenta'
-		},
-		{
-			// Overriding default levels is also an option
-			name: 'Log',
-			color: 'yellow'
-		}
-	]
-});
-
-logger.log('Hello World!');
-logger.api('Online at port 3000!');
-```  
-![](https://modeus.is-inside.me/HzSP9TCd.png)
+[Provided Here](examples/).
 
 # Documentation
 #### new Loggaby(options) 
@@ -97,10 +36,11 @@ The Loggaby constructor, which creates a `logger` instance.
   - `transports` {Object[]} (An array of objects or specifically [transport instances](lib/transports/)) What transports to log to.  An example is provided above. (Default: `[TerminalTransport]`)
   - `debug` {Boolean} Whether to print debug messages. (Default: `true`)
   - `levels` {Object[]} Additional custom levels to provide.
-    - `name` {String} Name of the level
-    - `color` {String} Color of the level (accepted values are [here](https://github.com/Luvella/AnsiKit#colors))
-    - `debug` {Boolean} Whether this is a debug log (hidden with `debug: false`)
+    - `name` {String} Name of the level that appears in the logs
+    - `color` {String} Color of the `name` (accepted values are [these](https://github.com/Luvella/AnsiKit#colors) or a hex value)
+    - `debug` {Boolean} Whether this is a debug log (that is hidden with `debug: false`)
     - `fatal` {Boolean} Whether to make the level name and message bold and underline
+    - `call` {String} Name of the function to use this level
 
 ## Levels
 `debug`, `log`, `warn`, `error`,  `fatal`  
