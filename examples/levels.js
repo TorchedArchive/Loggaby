@@ -13,7 +13,7 @@ const logger = new Loggaby({
 		},
 		{
 			// Levels can have spaces; they will be stripped
-			name: 'Hello World', // Called like: <Loggaby>.lolno(message)
+			name: 'Hello World', // Called like: <Loggaby>.helloworld(message)
 			color: '#8a1ce9' // Hex colors can be provided (not all terminals support this though)
 		},
 		{
