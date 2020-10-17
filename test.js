@@ -14,5 +14,5 @@ const logger = new Loggaby({
 	]
 });
 
-logger.lolno('The level of this is #8a1ce9')
-logger.status('Online at port 69')
+logger.lolno('The level of this is %s', '#8a1ce9');
+logger.log('%s moment', 'pog', 'indeed,', {results: 'success!'});
