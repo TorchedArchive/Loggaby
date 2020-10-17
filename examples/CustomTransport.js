@@ -17,8 +17,10 @@ class CustomTransport extends Loggaby.Transport {
 		super(false); // Disable color
 	}
 
-	transmit(msg) { // The function to post/print a message
-		console.log(msg);
+	// The function to post/print a message
+	// NOTE: Does not to printf-style formatting like TerminalTransport, as you can see.
+	transmit(args) {
+		console.log(args.join(' '));
 	}
 }
 
