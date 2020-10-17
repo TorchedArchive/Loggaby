@@ -1,6 +1,6 @@
 {
   "name": "loggaby",
-  "version": "2.2.0",
+  "version": "3.0.0",
   "description": "📝 A minimal and simplistic logger with no bloat.",
   "main": "lib/index.js",
   "files": [
@@ -30,9 +30,9 @@
   },
   "homepage": "https://github.com/Luvella/Loggaby#readme",
   "dependencies": {
-    "ansikit": "^1.1.4"
+    "ansikit": "^1.5.0"
   },
   "devDependencies": {
-    "@luvella/eslint-config": "^1.0.2"
+    "@luvella/eslint-config": "^1.0.3"
   }
 }
