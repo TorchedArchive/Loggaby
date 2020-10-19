@@ -2,11 +2,11 @@
 	<h1>Loggaby</h1>
 	<blockquote align="center">📝 A minimal and simplistic logger with no bloat.</blockquote>
 	<p>
-		<a href="https://github.com/Luvella/Loggaby/blob/master/LICENSE">
-			<img alt="GitHub license" src="https://img.shields.io/github/license/Luvella/Loggaby?style=for-the-badge">
+		<a href="https://github.com/Loggaby/Loggaby/blob/master/LICENSE">
+			<img alt="GitHub license" src="https://img.shields.io/github/license/Logabby/Loggaby?style=for-the-badge">
 		</a>
-		<a href="https://github.com/Luvella/Loggaby/stargazers">
-			<img alt="GitHub stars" src="https://img.shields.io/github/stars/Luvella/Loggaby?style=for-the-badge">
+		<a href="https://github.com/Loggaby/Loggaby/stargazers">
+			<img alt="GitHub stars" src="https://img.shields.io/github/stars/Logabby/Loggaby?style=for-the-badge">
 		</a>
 		<br>
 		Loggaby aims to be a simple, minimalistic and lightweight logger that doesn't bring useless dependencies and extra unneeded features.
@@ -50,3 +50,10 @@ You can log with `logger.<Level>()` [for example](#example).
 # License
 Loggaby is licensed under the MIT license.  
 [Read here](LICENSE) for more info.
+
+<hr>
+<p align="center">
+	<i>A <a href="https://github.com/Luvella">Luvella</a> project.</i>
+	<br>
+	<img src="https://modeus.is-inside.me/ZvFTbWcA.png" width=52>
+</p>
