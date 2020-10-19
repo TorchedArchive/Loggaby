@@ -1,6 +1,6 @@
 {
   "name": "loggaby",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "📝 A minimal and simplistic logger with no bloat.",
   "main": "lib/index.js",
   "files": [
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Luvella/Loggaby.git"
+    "url": "git+https://github.com/Loggaby/Loggaby.git"
   },
   "keywords": [
     "color",
@@ -26,9 +26,9 @@
   "author": "Luvella",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Luvella/Loggaby/issues"
+    "url": "https://github.com/Loggaby/Loggaby/issues"
   },
-  "homepage": "https://github.com/Luvella/Loggaby#readme",
+  "homepage": "https://github.com/Loggaby/Loggaby#readme",
   "dependencies": {
     "ansikit": "^1.5.0"
   },
