@@ -3,10 +3,10 @@
 	<blockquote align="center">📝 A minimal and simplistic logger with no bloat.</blockquote>
 	<p>
 		<a href="https://github.com/Loggaby/Loggaby/blob/master/LICENSE">
-			<img alt="GitHub license" src="https://img.shields.io/github/license/Logabby/Loggaby?style=for-the-badge">
+			<img alt="GitHub license" src="https://img.shields.io/github/license/Loggaby/Loggaby?style=for-the-badge">
 		</a>
 		<a href="https://github.com/Loggaby/Loggaby/stargazers">
-			<img alt="GitHub stars" src="https://img.shields.io/github/stars/Logabby/Loggaby?style=for-the-badge">
+			<img alt="GitHub stars" src="https://img.shields.io/github/stars/Loggaby/Loggaby?style=for-the-badge">
 		</a>
 		<br>
 		Loggaby aims to be a simple, minimalistic and lightweight logger that doesn't bring useless dependencies and extra unneeded features.
