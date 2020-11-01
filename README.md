@@ -10,11 +10,11 @@
 		</a>
 		<br>
 		Loggaby is the cool logger that is made to be:
-		<ol>
+		<ul>
 			<li>Lightweight</li>
 			<li>Lacking features, which makes it simplistic :)))</li>
-		</ol>
-		It's also opinionated but not so that everything is forced (it provides transports, custom levels) but more that the features and whatever else ar only what I think is needed or want.
+		</ul>
+		It's also opinionated but not so that everything is forced (it provides transports, custom levels) but more that the features and whatever else are only what I think is needed or want.
 		It has 1 goal and strives for it well: Posting nice looking logs to your terminal (or wherever you want, see <a href="#examples">the examples</a> for details)
 		<br><br>
 		<img alt="Preview" src="https://modeus.is-inside.me/V6nRi6i6.png">
