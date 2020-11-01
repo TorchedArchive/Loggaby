@@ -31,7 +31,7 @@
 
 # Documentation
 #### new Loggaby(options) 
-The Loggaby constructor, which creates a `logger` instance.
+The Loggaby constructor, which creates a new `Loggaby` instance.
 - `options` {Object}
   - `transports` {Object[]} (An array of objects or specifically [transport instances](lib/transports/)) What transports to log to.  An example is provided above. (Default: `[TerminalTransport]`)
   - `debug` {Boolean} Whether to print debug messages. (Default: `true`)
