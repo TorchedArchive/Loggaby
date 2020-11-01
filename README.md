@@ -1,6 +1,6 @@
 <div align="center">
 	<h1>Loggaby</h1>
-	<blockquote align="center">📝 A minimal and simplistic logger with no bloat.</blockquote>
+	<blockquote align="center">📝 Simplistic, customizable yet opinionated logger.</blockquote>
 	<p>
 		<a href="https://github.com/Loggaby/Loggaby/blob/master/LICENSE">
 			<img alt="GitHub license" src="https://img.shields.io/github/license/Loggaby/Loggaby?style=for-the-badge">
@@ -9,10 +9,14 @@
 			<img alt="GitHub stars" src="https://img.shields.io/github/stars/Loggaby/Loggaby?style=for-the-badge">
 		</a>
 		<br>
-		Loggaby aims to be a simple, minimalistic and lightweight logger that doesn't bring useless dependencies and extra unneeded features.
-		It has 1 goal and strives for it well: Posting nice looking logs to your terminal (or perhaps a custom transport?!? See <a href="#example">the examples</a> for details)
+		Loggaby is the cool logger that is made to be:
+		<ol>
+			<li>Lightweight</li>
+			<li>Lacking features, which makes it simplistic :)))</li>
+		</ol>
+		It's also opinionated but not so that everything is forced (it provides transports, custom levels) but more that the features and whatever else ar only what I think is needed or want.
+		It has 1 goal and strives for it well: Posting nice looking logs to your terminal (or wherever you want, see <a href="#examples">the examples</a> for details)
 		<br><br>
-		Oh, it looks like this:<br>
 		<img alt="Preview" src="https://modeus.is-inside.me/V6nRi6i6.png">
 	</p>
 </div>
@@ -20,11 +24,11 @@
 # Table of Contents
 - [Install](#install)
 - [Examples](#examples)
-- [Docs](#documentatiob)
+- [Docs](#documentation)
 - [License](#license) 
 
 ## Install
-`npm i loggaby`
+`npm install loggaby`
 
 ## Examples
 [Provided Here](examples/).
@@ -36,16 +40,15 @@ The Loggaby constructor, which creates a `logger` instance.
   - `transports` {Object[]} (An array of objects or specifically [transport instances](lib/transports/)) What transports to log to.  An example is provided above. (Default: `[TerminalTransport]`)
   - `debug` {Boolean} Whether to print debug messages. (Default: `true`)
   - `levels` {Object[]} Additional custom levels to provide.
-    - `name` {String} Name of the level that appears in the logs
-    - `color` {String} Color of the `name` (accepted values are [these](https://github.com/Luvella/AnsiKit#colors) or a hex value)
-    - `debug` {Boolean} Whether this is a debug log (that is hidden with `debug: false`)
-    - `fatal` {Boolean} Whether to make the level name and message bold and underline
-    - `call` {String} Name of the function to use this level
+    - `name` {String} Name of the level that appears in the logs.
+    - `color` {String} Color of the level name. Accepted values are a hex value or [named colors](https://github.com/Luvella/AnsiKit#colors).
+    - `debug` {Boolean} Whether this level will be hidden when `options.debug` is false.
+    - `fatal` {Boolean} Whether to make the level name and message bold and underline (to be noticeable).
+    - `call` {String} Name of the function to use this level.
 
-## Levels
-`debug`, `log`, `warn`, `error`,  `fatal`  
-
-You can log with `logger.<Level>()` [for example](#example).
+## Default Levels
+`debug`, `log`, `warn`, `error` and `fatal`  
+You can log with `Loggaby.<Level>()`.
 
 # License
 Loggaby is licensed under the MIT license.  
