@@ -24,7 +24,7 @@
 - [License](#license) 
 
 ## Install
-`npm install loggaby`
+`npm install loggaby` or `yarn add loggaby`
 
 ## Examples
 [Provided Here](examples/).
