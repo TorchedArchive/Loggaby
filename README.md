@@ -26,6 +26,10 @@
 ## Install
 `npm install loggaby`
 
+Or with Yarn:
+
+`yarn add loggaby`
+
 ## Examples
 [Provided Here](examples/).
 
