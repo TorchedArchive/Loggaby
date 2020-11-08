@@ -1,6 +1,6 @@
 <div align="center">
 	<h1>Loggaby</h1>
-	<blockquote align="center">📝 Simplistic, customizable yet opinionated logger.</blockquote>
+	<blockquote align="center">📝 A simple, lightweight and customizable logger.</blockquote>
 	<p>
 		<a href="https://github.com/Loggaby/Loggaby/blob/master/LICENSE">
 			<img alt="GitHub license" src="https://img.shields.io/github/license/Loggaby/Loggaby?style=for-the-badge">
@@ -9,8 +9,7 @@
 			<img alt="GitHub stars" src="https://img.shields.io/github/stars/Loggaby/Loggaby?style=for-the-badge">
 		</a>
 		<br>
-		Loggaby is the cool logger that is made to be simplistic (because lack of features), lightweight and minimal.<br>
-		It's also opinionated but not so that everything is forced (it provides transports, custom levels) but more that the features and whatever else are only what I think is needed or want.<br>
+		Loggaby is the simple, lightweight and minimal logger. It's also customizable!<br>
 		It has 1 goal and strives for it well: Posting nice looking logs to your terminal (or wherever you want, see <a href="#examples">the examples</a> for details)
 		<br><br>
 		<img alt="Preview" src="https://modeus.is-inside.me/V6nRi6i6.png">
@@ -26,8 +25,7 @@
 ## Install
 `npm install loggaby`
 
-Or with Yarn:
-
+Or with Yarn:  
 `yarn add loggaby`
 
 ## Examples
