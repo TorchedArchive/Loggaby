@@ -9,10 +9,14 @@
 			<img alt="GitHub stars" src="https://img.shields.io/github/stars/Loggaby/Loggaby?style=for-the-badge">
 		</a>
 		<br>
-		Loggaby is the simple, lightweight and minimal logger. It's also customizable!<br>
+		Loggaby is the simple, lightweight and minimal logger.<br>
 		It has 1 goal and strives for it well: Posting nice looking logs to your terminal (or wherever you want, see <a href="#examples">the examples</a> for details)
 		<br><br>
-		<img alt="Preview" src="https://modeus.is-inside.me/V6nRi6i6.png">
+		<img alt="Preview" src="https://modeus.is-inside.me/sK6rnRGq.png">
+		<i>How it looks for default.</i>
+		<br>
+		PS: It's also customizable (highly so)!<br>
+		<img alt="Preview" src="https://modeus.is-inside.me/rV5DHbxa.png" href="/examples/logFormat.js">
 	</p>
 </div>
 
