@@ -2,7 +2,7 @@
 // Realistically you can just pass `false` to the TerminalTransport constructor like:
 /*
 	const Loggaby = require('loggaby');
-	const TerminalTransport = new Loggaby.TerminalTransport(false);
+	const TerminalTransport = new Loggaby.TerminalTransport({color: false});
 	const logger = new Loggaby({
 		transports: [TerminalTransport]
 	});
@@ -10,11 +10,11 @@
 	logger.log('Hello World!');
 */
 
-const Loggaby = require('loggaby');
+const Loggaby = require('../lib');
 
 class CustomTransport extends Loggaby.Transport {
 	constructor() {
-		super(false); // Disable color
+		super({color: false}); // Disable color
 	}
 
 	// The function to post/print a message
