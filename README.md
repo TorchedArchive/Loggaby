@@ -35,14 +35,15 @@ Or with Yarn:
 #### new Loggaby(options) 
 The Loggaby constructor, which creates a new `Loggaby` instance.
 - `options` {Object}
-  - `transports` {Object[]} (An array of objects or specifically [transport instances](lib/transports/)) What transports to log to.  An example is provided above. (Default: `[TerminalTransport]`)
   - `debug` {Boolean} Whether to print debug messages. (Default: `true`)
+  - `format` {String} Format for how logs should look (Default: `'{grey}{time}{reset} {level} > '`)
   - `levels` {Object[]} Additional custom levels to provide.
     - `name` {String} Name of the level that appears in the logs.
     - `color` {String} Color of the level name. Accepted values are a hex value or [named colors](https://github.com/Luvella/AnsiKit#colors).
     - `debug` {Boolean} Whether this level will be hidden when `options.debug` is false.
     - `fatal` {Boolean} Whether to make the level name and message bold and underline (to be noticeable).
     - `call` {String} Name of the function to use this level.
+  - `transports` {Object[]} (An array of objects or specifically [transport instances](lib/transports/)) What transports to log to.  An example is provided above. (Default: `[TerminalTransport]`)
 
 ## Default Levels
 `debug`, `log`, `warn`, `error` and `fatal`  
