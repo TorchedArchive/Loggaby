@@ -35,7 +35,7 @@ Or with Yarn:
 #### new Loggaby(options) 
 The Loggaby constructor, which creates a new `Loggaby` instance.
 - `options` {Object}
-  - `debug` {Boolean} Whether to print debug messages. (Default: `true`)
+  - `debug` {Boolean | String} Whether to print debug messages. Can be a boolean or `'auto'`. (Default: `true`)
   - `format` {String} Format for how logs should look (Default: `'{grey}{time}{reset} {level} > '`)
   - `levels` {Object[]} Additional custom levels to provide.
     - `name` {String} Name of the level that appears in the logs.
