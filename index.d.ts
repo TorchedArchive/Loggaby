@@ -14,6 +14,8 @@ declare module 'loggaby' {
 
     /** Name of the level that appears in the logs. */
     name: string;
+    
+    [x: string]: any;
   }
 
   interface Options {
