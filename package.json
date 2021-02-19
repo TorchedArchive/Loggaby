@@ -1,10 +1,11 @@
 {
   "name": "loggaby",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "📝 A simple, lightweight and customizable logger.",
   "main": "lib/index.js",
   "types": "index.d.ts",
   "files": [
+    "index.d.ts",
     "lib/index.js",
     "lib/**/*",
     "lib/**/*"
