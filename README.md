@@ -15,7 +15,7 @@
 		<br><br>
 		<img alt="Preview" src="https://modeus.is-inside.me/sK6rnRGq.png">
 		<br>
-		<i>How it looks for default.</i>
+		<i>How the default log format looks.</i>
 		<br><br>
 		PS: It's also customizable (highly so)! From how it looks, to the log destination.<br>
 		<img alt="Preview" src="https://modeus.is-inside.me/rV5DHbxa.png" href="/examples/logFormat.js">
