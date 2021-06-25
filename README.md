@@ -61,7 +61,7 @@ Loggaby is licensed under the MIT license.
 
 <hr>
 <p align="center">
-	<i>A <a href="https://github.com/Luvella">Luvella</a> project.</i>
+	<i>A <a href="https://github.com/rosettea">Rosettea</a> project.</i>
 	<br>
 	<img src="https://modeus.is-inside.me/ZvFTbWcA.png" width=52>
 </p>
